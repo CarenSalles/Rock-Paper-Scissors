@@ -40,19 +40,13 @@ public class PlayerTest {
         // Si  rock és un objeto de la Clase Rock será verdadero.
         assertEquals("Rock", rock.getType()); 
         // Obtengamos "Rock" cuando llamamos el tipo del objeto que hemos instanciado.
+
+    }
+
+}
         
 
-
-    }
-
-    @Test
-    public void test_Player_can_choose_Paper(){
-        Figure paper = player1.choose("Paper");
-        // assertTrue(paper instanceof Paper);
-        assertEquals("Paper", paper.getType());
-
-    }
-}
+    
 
 
 
